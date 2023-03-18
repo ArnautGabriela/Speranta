@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOPP</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+
+    <link rel="icon" href="images/speranta.JPG" />
+
+    <link rel="stylesheet" href="css/lightbox.css" /> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="js/lightbox.js" defer></script> 
+
+    <script src="js/main.js" defer>
+    </script>
+    <script src="js/slider.js" defer>
+    </script>
+</head>
+
+<body>
+    <header data-aos="fade-down">
+        <a href="index.html">
+            <img src="images/speranta.JPG">
+        </a>
+        <navbar class="nav" id="navbar">
+            <a onclick="mobile()" href="#despre">Despre noi</a>
+            <a href="pages/noutati.html">Noutăți</a>
+            <a onclick="mobile()" href="#realizari">Realizări</a>
+            <a onclick="mobile()" href="#contacte">Contacte</a>
+
+            <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
+        </navbar>
+    </header>
+    <section id="intro">
+        <div class="intro-content" data-aos="fade-in" data-aos="fade-in" data-aos-delay="400">
+            <img class="logo" src="images/speranta.JPG">
+            <h1>Asociația Obștească a Părinților și Pedagogilor "Speranța"</h1>
+            <h2> Cel mai fericit om e acela ce face fericiți un număr cât mai mare de oameni.
+            </h2>
+            <a class="intro-btn" id="despre-btn" href="#despre"> Despre noi</a>
+            <a class="intro-btn" href="pages/noutati.html"> Noutăți</a>
+        </div>
+        <div class="custom-shape-divider-bottom-1647973333">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <main>
+        <section id="despre" data-aos="fade-in">
+            <h1 class="centered"> Despre noi</h1>
+
+            <p class="p-despre">
+                AOPP Speranța este o Asociație creată la voința părinților și pedagogilor din LT "Ștefan cel Mare și
+                Sfânt" în vederea efectuării măsurilor de durabilitate a implementării noiloe forme și tehnologii
+                educaționale, îmbunătățirea bazei tehnico-materiale, promovarea valorilor umane, diversificarea și
+                aprofundarea relațiilor de parteneriat Școală - Familie.
+            </p>
+            <div class="slideshow">
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-user-tie"></i>
+                        <p>
+                            Tehnologii Informaționale.
+                        </p>
+                    </div>
+                    <img src="images/1inf2.jpg">
+                </div>
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-book"></i>
+                        <p>
+                            Consolidarea
+                            capacităților tinerilor în contextul mediului asociativ comunitar prin creare afaceri.
+                        </p>
+                    </div>
+                    <img src="images/2inf2.jpg">
+                </div>
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>
+                            Liderism din interior spre exterior.
+                        </p>
+                    </div>
+                    <img src="images/1inf4.jpg">
+                </div>
+            </div>
+        </section>
+        <section id="realizari" data-aos="fade-in">
+            <h1 class="centered"> Realizari</h1>
+               
+            <div class="container-realizari">
+                <a data-aos="zoom-in" data-aos-delay="400" href="images/scoala3.jpg">
+                    <img src="images/scoala3.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="600" href="images/masa2.jpg">
+                    <img src="images/masa2.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="800" href="images/2inf4.jpg">
+                    <img src="images/2inf4.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="1000" href="images/2inf2.jpg">
+                    <img src="images/2inf2.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="1200" href="images/scoala2.jpg">
+                    <img src="images/scoala2.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="1400" href="images/masa4.jpg">
+                    <img src="images/masa4.jpg">
+                </a>
+            </div>
+        </section>
+        <section id="contacte" data-aos="fade-in">
+            <h1 class="centered"> Contacte</h1>
+            <div class="row">
+                <div class="col-50 contacte-info">
+                    <b>Telefon </b>
+                    <a href="tel:+37360078850">+373 60078850</a>
+                    <br />
+                    <b>Adresa</b>
+                    <span> Str.Ștefan cel Mare 10</span>
+                    <br />
+                    <b>E-mail:</b>
+                    <a href="mailto:neculceatamara@gmail.com"> neculceatamara@gmail.com</a>
+                    <br />
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br />
+                            <input type="email" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" rows="4" placeholder="Mesajul" required></textarea>
+                            <br />
+                            <input type="button" value="transmite" onclick="send()">
+                        </form>
+
+
+                    </div>
+                </div>
+                <div class="col-50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21942.51540464574!2d29.120075!3d46.571135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc9f62429a4d41aca!2sLiceul%20Teoretic%20Stefan%20cel%20Mare%20%C8%99i%20Sfint!5e0!3m2!1sro!2sus!4v1649875680121!5m2!1sro!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy" class="harta"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div> Asociația Obștească a Părinților și Pedagogilor "Speranța" ©️ </div>
+        <div>Acest website a fost realizat în cadrul
+            competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare
+            Școală” și nu reflectă neapărat opinia proiectului.</div>
+        <div id="an">2023</div>
+    </footer>
+</body>
+
+</html>
